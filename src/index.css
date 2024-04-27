@@ -1,0 +1,72 @@
+.weather-container {
+  text-align: center;
+  margin-top: 50px;
+  background: url("https://media.istockphoto.com/id/1429064821/photo/summer-raincloud.jpg?s=612x612&w=0&k=20&c=3C2zoRuvQ1hAf8mq_k1KazZ0M2YZmrWLaHoQIgeaseY=")
+    center/cover no-repeat;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.weather-heading {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.weather-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.weather-input {
+  padding: 15px;
+  border-radius: 25px 0 0 25px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 250px;
+  font-size: 18px;
+}
+
+.weather-button {
+  padding: 15px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.weather-button:hover {
+  background-color: #0056b3;
+}
+
+.weather-info {
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.weather-city {
+  margin-top: 0;
+  font-size: 36px;
+  color: #333;
+}
+
+.weather-temperature,
+.weather-description {
+  font-size: 24px;
+  color: #555;
+}
+
+.weather-loading,
+.weather-error {
+  font-size: 24px;
+  color: #f00;
+}
